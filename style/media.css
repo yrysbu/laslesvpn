@@ -1,0 +1,42 @@
+@media (max-width: 1280px) {
+  .header {
+    padding: 40px 50px;
+  }
+  .nav-link:not(:last-child) {
+    margin-right: 20px;
+  }
+  .laslesVPN-wrapper h1 {
+    font-size: 38px;
+    line-height: 55px;
+  }
+  .laslesVPN-wrapper img {
+    width: 470px;
+  }
+  .laslesVPN-wrapper {
+    margin-top: 45px;
+  }
+  .container {
+    max-width: 1000px;
+    padding: 0 10px;
+  }
+  .statistics {
+    padding: 50px 60px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    max-width: 400px;
+  }
+  .col-4 {
+    width: 100%;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  .col-8 {
+    width: 100%;
+  }
+  .col-3 {
+    width: 100%;
+  }
+}
