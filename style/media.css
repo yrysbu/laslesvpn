@@ -1,31 +1,152 @@
 @media (max-width: 1280px) {
-  .header {
-    padding: 40px 50px;
-  }
-  .nav-link:not(:last-child) {
-    margin-right: 20px;
-  }
-  .laslesVPN-wrapper h1 {
-    font-size: 38px;
-    line-height: 55px;
-  }
-  .laslesVPN-wrapper img {
-    width: 470px;
-  }
-  .laslesVPN-wrapper {
-    margin-top: 45px;
-  }
   .container {
     max-width: 1000px;
     padding: 0 10px;
   }
+  .header-bar {
+    padding: 35px 0px;
+    margin-top: 30px;
+  }
+  .nav-link:not(:last-child) {
+    margin-right: 25px;
+  }
+  .laslesVPN-wrapper img {
+    width: 100%;
+  }
+  .future {
+    width: 100%;
+  }
+  .future2 {
+    width: 100%;
+  }
   .statistics {
-    padding: 50px 60px;
+    width: 100%;
+  }
+  .features {
+    width: 100%;
+  }
+  .features-wrapper {
+    width: 100%;
+  }
+  .signUp {
+    padding: 8px 35;
+  }
+  .signIn {
+    margin-right: 15px;
+  }
+}
+@media (max-width: 980px) {
+  .container {
+    max-width: 740px;
+    padding: 0 10px;
+  }
+  .nav-link:not(:last-child) {
+    margin-right: 15px;
+  }
+  .laslesVPN-wrapper {
+    margin-top: 10px;
+  }
+  .laslesVPN h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .laslesVPN p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .get-started {
+    margin-top: 15px;
+  }
+  .user-img {
+    padding: 30px 25px;
+  }
+  .features-title h2 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .features-title p {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+  .svg-vector {
+    line-height: 0px;
+  }
+  .plan-wrapper h2 {
+    font-size: 20px;
+    margin-top: 25px;
+    line-height: 25px;
+  }
+  .plan-wrapper p {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 5px;
+  }
+  .plan-box {
+    height: 100%;
+    padding: 20px 1px 12px;
+  }
+  .plan-box h4 {
+    margin: 20px 0;
+  }
+  .advantage-wrapper {
+    gap: 6px;
+  }
+  .plan-box svg {
+    margin-right: 8.8px;
+  }
+  .select-info h3 {
+    margin-top: 20px;
+  }
+  .plan-wrapper {
+    margin: 0 auto 25px;
+  }
+  .ratings-cards-wrapper {
+    padding-bottom: 14px;
+  }
+  .ratings-cards {
+    padding: 10px;
+  }
+  .profile p {
+    font-size: 11px;
+  }
+  .rating-box p {
+    font-size: 11px;
+  }
+  .subscribe-wrapper {
+    padding: 45px 53px;
+  }
+  .subscribe-wrapper p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .subscribe-wrapper h2 {
+    width: 65%;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .footer-wrapper {
+    padding-top: 0px;
+  }
+  .footer-description p {
+    width: 100%;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .svg-footer {
+    height: 50px;
+    margin-left: -15px;
+  }
+  .footer-list {
+    line-height: 20px;
+    font-size: 14px;
   }
 }
 @media (max-width: 720px) {
   .container {
-    max-width: 400px;
+    max-width: 380px;
+    padding: 0 10px;
   }
   .col-4 {
     width: 100%;
@@ -36,7 +157,123 @@
   .col-8 {
     width: 100%;
   }
-  .col-3 {
+  .burger-menu {
+    display: block;
+  }
+  a {
+    display: none;
+  }
+  .header-btn {
+    display: none;
+  }
+  .laslesVPN-wrapper {
+    margin-top: 50px;
+  }
+  .laslesVPN-wrapper img {
     width: 100%;
+  }
+  .laslesVPN-wrapper h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .features-img img {
+    width: 100%;
+  }
+  .subscribe-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 29px 27px;
+  }
+  .subscribe-wrapper h2 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .subscribe-btn {
+    padding: 9.5px 25.5px;
+    margin-top: 10px;
+  }
+  .get-started {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .plan-wrapper {
+    margin: 0 auto 10px;
+    width: 100%;
+  }
+  .plan-wrapper h2 {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .plan-wrapper p {
+    line-height: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .features-title h2 {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+  }
+  .features-title p {
+    line-height: 20px;
+    margin-top: 15px;
+  }
+  .slider-btn {
+    display: none;
+  }
+  .line-vector::before,
+  .line-vector::after {
+    display: none;
+  }
+  .user-img {
+    height: 100%;
+    padding: 10px 10px;
+  }
+  .user-title h4 {
+    font-size: 17px;
+    line-height: 15px;
+  }
+  .user-title p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .plan-box {
+    height: 100%;
+    padding: 19px 10px 15px;
+  }
+  .select-info h3 {
+    margin-top: 20px;
+  }
+  .svg-vector {
+    line-height: 0px;
+    margin-top: 7px;
+  }
+  .ratings-cards {
+    padding: 13px;
+  }
+  .svg-footer {
+    height: 50px;
+    margin-left: -15px;
+  }
+  .footer-list li {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .footer-list h4 {
+    font-size: 14px;
+  }
+  .footer-description p {
+    line-height: 20px;
+  }
+  .footer-wrapper {
+    padding-top: 0px;
+  }
+  .footer-list {
+    margin-left: -10px;
   }
 }
