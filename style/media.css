@@ -49,10 +49,12 @@
   .laslesVPN h1 {
     font-size: 25px;
     line-height: 30px;
+    width: 100%;
   }
   .laslesVPN p {
     font-size: 15px;
     line-height: 20px;
+    width: 100%;
   }
   .get-started {
     margin-top: 15px;
@@ -68,6 +70,7 @@
     font-size: 15px;
     line-height: 20px;
     margin-top: 10px;
+    width: 100%;
   }
   .svg-vector {
     line-height: 0px;
@@ -120,7 +123,6 @@
     font-size: 15px;
     line-height: 20px;
   }
-
   .subscribe-wrapper h2 {
     width: 65%;
     font-size: 20px;
@@ -167,7 +169,7 @@
     display: none;
   }
   .laslesVPN-wrapper {
-    margin-top: 50px;
+    margin-top: 20px;
   }
   .laslesVPN-wrapper img {
     width: 100%;
@@ -175,6 +177,11 @@
   .laslesVPN-wrapper h1 {
     font-size: 30px;
     line-height: 40px;
+    width: 100%;
+  }
+  .laslesVPN-wrapper p {
+    font-size: 14px;
+    width: 100%;
   }
   .features-img img {
     width: 100%;
@@ -275,5 +282,8 @@
   }
   .footer-list {
     margin-left: -10px;
+  }
+  .divider{
+    display: unset;
   }
 }
